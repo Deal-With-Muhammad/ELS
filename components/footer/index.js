@@ -56,7 +56,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-slate-50 to-blue-50 border-t border-slate-200">
+    <footer className=" bg-yellow-100 border-t">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -210,7 +210,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-200 bg-white/50">
+      <div className="border-t bg-yellow-100">
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="text-sm text-slate-600">
@@ -219,7 +219,7 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="flex space-x-4">
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
                 aria-label="Facebook"
@@ -246,7 +246,10 @@ export default function Footer() {
                 aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5" />
-              </a>
+              </a> */}
+              <div className="mt-2 underline">
+                <a href="/terms">Terms And Policy</a>
+              </div>
             </div>
           </div>
         </div>

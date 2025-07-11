@@ -15,6 +15,7 @@
   font-display: optional;
   src: url(/fonts/MYRIADPRO-BOLD.OTF) format("otf");
 } */
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 
 html,
 body {
@@ -145,3 +146,8 @@ a {
   width: 100%;
   object-fit: cover;
 } */
+.seymour-one-regular {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}

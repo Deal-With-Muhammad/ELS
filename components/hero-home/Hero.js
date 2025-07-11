@@ -48,7 +48,7 @@ function Hero() {
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <h1 className="mb-6 font-extrabold text-4xl md:text-7xl leading-tight">
+          <h1 className="mb-6 font-extrabold text-4xl seymour-one-regular md:text-7xl leading-tight">
             <span className="inline-block animate-fade-in-up">
               Empower Your
             </span>{" "}
