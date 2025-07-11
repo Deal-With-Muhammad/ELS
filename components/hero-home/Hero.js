@@ -18,17 +18,6 @@ function Hero() {
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
-  // Generate floating particles
-  const particles = Array.from({ length: 50 }, (_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 4 + 2,
-    opacity: Math.random() * 0.5 + 0.1,
-    duration: Math.random() * 20 + 20,
-    delay: Math.random() * 20,
-  }));
-
   return (
     <div
       className="min-h-[77vh] flex items-center justify-center text-center bg-cover bg-fixed bg-center w-full text-white relative overflow-hidden"

@@ -279,7 +279,7 @@ export default function Fundraising({ navigations }) {
                           }}
                           className="w-full bg-[#2c5f9e] hover:bg-[#1a4370] text-white py-3 rounded-lg font-semibold transition-all hover:transform hover:-translate-y-1"
                         >
-                          Donate to This Project
+                          Support this Project
                         </button>
                       </div>
                     </div>
@@ -366,7 +366,7 @@ export default function Fundraising({ navigations }) {
             <div className="max-w-6xl mx-auto px-4">
               <div className="text-center mb-2">
                 <h2 className="text-4xl md:text-4xl font-bold text-[#2c5f9e] mb-4">
-                  Make a Donation
+                  Make a Contribution
                 </h2>
                 <p className="text-xl text-[#6c757d] max-w-3xl mx-auto">
                   Every contribution makes a difference. Choose how you'd like
@@ -477,7 +477,7 @@ export default function Fundraising({ navigations }) {
                     {selectedAmount > 0 && name && email && (
                       <div className="bg-[#f8f9fa] rounded-lg p-4 border">
                         <h4 className="font-semibold text-[#2c3e50] mb-2">
-                          Donation Summary:
+                          Summary:
                         </h4>
                         <p className="text-sm text-[#6c757d]">
                           <strong>Amount:</strong> RM {selectedAmount}
@@ -487,7 +487,7 @@ export default function Fundraising({ navigations }) {
                           {getAllocationLabel(allocation)}
                         </p>
                         <p className="text-sm text-[#6c757d]">
-                          <strong>Donor:</strong> {name}
+                          <strong>Contributor:</strong> {name}
                         </p>
                       </div>
                     )}

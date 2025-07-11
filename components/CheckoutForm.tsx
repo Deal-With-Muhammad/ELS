@@ -85,7 +85,7 @@ export default function CheckoutForm({
       disabled={loading}
       className="w-full bg-[#2c5f9e] hover:bg-[#1a4370] disabled:bg-gray-400 text-white py-4 rounded-lg font-semibold transition-all hover:transform hover:-translate-y-1 shadow-lg disabled:transform-none"
     >
-      {loading ? "Processing..." : "Donate Now"}
+      {loading ? "Processing..." : "Contribute Now"}
     </button>
   );
 }
