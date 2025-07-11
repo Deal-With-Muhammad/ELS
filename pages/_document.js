@@ -5,7 +5,7 @@ export default function Document(props) {
     <Html lang="en">
       <Head>
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <meta property="og:title" content="ELS: Smart E-Learning System" />
+        <meta property="og:title" content="ELS: Empower Learning System" />
         <meta
           property="og:description"
           content="ELS learning system for refugees in Malaysia."
@@ -18,7 +18,7 @@ export default function Document(props) {
         <meta property="og:type" content="website" />
 
         {/* Twitter Meta Tags */}
-        <meta name="twitter:title" content="ELS: Smart E-Learning System" />
+        <meta name="twitter:title" content="ELS: Empower Learning System" />
         <meta
           name="twitter:description"
           content="ELS learning system for refugees in Malaysia."
