@@ -32,11 +32,22 @@ function Hero() {
   return (
     <div
       className="min-h-[77vh] flex items-center justify-center text-center bg-cover bg-fixed bg-center w-full text-white relative overflow-hidden"
-      style={{
-        backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Hero.jpg')",
-      }}
+      // style={{
+      //   backgroundImage:
+      //     "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Hero.jpg')",
+      // }}
     >
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/images/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-[1]" />
       {/* Animated mesh gradient overlay */}
 
       {/* Floating particles */}
