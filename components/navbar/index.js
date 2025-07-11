@@ -238,31 +238,6 @@ const Navbar = ({
               </svg>
               <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[12px]"></div>
             </a>
-
-            {/* <ul className="flex space-x-12">
-              <div className="flex flex-row-reverse">
-                <img
-                  className="px-2 h-[34px] cursor-pointer"
-                  alt="VietNam"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png"
-                  onClick={() =>
-                    router.push({ pathname, query }, asPath, {
-                      locale: "vi",
-                    })
-                  }
-                />
-                <img
-                  className="h-[34px] cursor-pointer"
-                  src="/svg/US.svg"
-                  alt="English"
-                  onClick={() =>
-                    router.push({ pathname, query }, asPath, {
-                      locale: "en",
-                    })
-                  }
-                />
-              </div>
-            </ul> */}
           </div>
         </div>
       </header>
