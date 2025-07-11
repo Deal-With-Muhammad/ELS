@@ -9,7 +9,7 @@ import Values from "../components/values";
 import { useHashFragment } from "../hooks/useHashFragment";
 import { getNavigation, getParagraphs } from "../lib/api";
 import { motion } from "framer-motion";
-
+import Story from "../components/our-story/story";
 export default function About({ navigations, visions, cofounders }) {
   useHashFragment();
   return (
@@ -73,6 +73,7 @@ export default function About({ navigations, visions, cofounders }) {
       </section>
       <Intro id="vision" visions={visions} />
 
+      <Story />
       <Values id="core" />
 
       {/* <DescriptionValues /> */}
