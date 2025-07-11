@@ -30,8 +30,7 @@ export default function Fundraising({ navigations }) {
       title: "Arm Rest Chairs for All Campuses",
       description:
         "Providing ergonomic chairs for all students across our campuses to improve posture and concentration during lessons.",
-      image:
-        "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80",
+      image: "/images/chairs.jpg",
       raised: projectsData.find((p) => p.id === "chairs")?.raised || 0,
       goal: 40000,
       icon: <Armchair className="w-6 h-6" />,
@@ -42,8 +41,7 @@ export default function Fundraising({ navigations }) {
       title: "Partitions for Two Campuses",
       description:
         "Creating proper learning environments at two campuses by installing partitions to reduce noise and distractions.",
-      image:
-        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80",
+      image: "/images/Hero.jpg",
       raised: projectsData.find((p) => p.id === "partitions")?.raised || 0,
       goal: 20000,
       icon: <Separator className="w-6 h-6" />,
@@ -54,8 +52,7 @@ export default function Fundraising({ navigations }) {
       title: "Textbooks Printing for AY 2025",
       description:
         "Printing curriculum materials for the 2025 academic year to ensure every student has access to quality resources.",
-      image:
-        "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80",
+      image: "/images/textbook.jpg",
       raised: projectsData.find((p) => p.id === "books")?.raised || 0,
       goal: 40000,
       icon: <Book className="w-6 h-6" />,
@@ -66,8 +63,7 @@ export default function Fundraising({ navigations }) {
       title: "Air Conditioning for 2 Campuses",
       description:
         "Installing air conditioning systems in two of our campuses to create comfortable learning environments for students.",
-      image:
-        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80",
+      image: "/images/higher.jpg",
       raised: projectsData.find((p) => p.id === "aircon")?.raised || 0,
       goal: 10000,
       icon: <AirVent className="w-6 h-6" />,
@@ -103,10 +99,10 @@ export default function Fundraising({ navigations }) {
           {/* Hero Section */}
           <section className="relative bg-gradient-to-r from-[#2c3e50]/85 to-[#2c3e50]/85 text-white py-32">
             <div
-              className="absolute inset-0 bg-cover bg-center"
+              className="absolute inset-0 bg-fixed bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')",
+                  "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/support.jpg')",
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#2c3e50]/85 to-[#2c3e50]/85" />
@@ -203,8 +199,7 @@ export default function Fundraising({ navigations }) {
                   <div
                     className="h-96 rounded-xl shadow-xl bg-cover bg-center"
                     style={{
-                      backgroundImage:
-                        "url('https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80')",
+                      backgroundImage: "url('/images/challenges.jpg')",
                     }}
                   />
                 </div>
@@ -310,8 +305,7 @@ export default function Fundraising({ navigations }) {
                 <div
                   className="flex-1 h-96 rounded-xl shadow-xl bg-cover bg-center"
                   style={{
-                    backgroundImage:
-                      "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80')",
+                    backgroundImage: "url('/images/sponsor.jpg')",
                   }}
                 />
                 <div className="flex-1 space-y-6">
@@ -336,11 +330,7 @@ export default function Fundraising({ navigations }) {
                         title: "Qualified Teachers",
                         desc: "Support for our dedicated teaching staff",
                       },
-                      {
-                        icon: <Apple className="w-5 h-5" />,
-                        title: "Nutritional Support",
-                        desc: "Daily meals and snacks during school days",
-                      },
+
                       {
                         icon: <Heart className="w-5 h-5" />,
                         title: "Personal Connection",
