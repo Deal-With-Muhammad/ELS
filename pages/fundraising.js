@@ -127,7 +127,7 @@ export default function Fundraising({ navigations }) {
                 </div>
                 <div className="w-full bg-white/30 rounded-full h-5 mb-4">
                   <div
-                    className="bg-[#27ae60] h-5 rounded-full transition-all duration-1000"
+                    className="bg-[#2746ae] h-5 rounded-full transition-all duration-1000"
                     style={{ width: `${overallProgress}%` }}
                   />
                 </div>
@@ -164,7 +164,7 @@ export default function Fundraising({ navigations }) {
                   Malaysia hosts over 180,000 refugees but is not a signatory to
                   the UN Refugee Convention
                 </p>
-                <div className="w-20 h-1 bg-[#27ae60] mx-auto mt-6 rounded-full" />
+                <div className="w-20 h-1 bg-[#2746ae] mx-auto mt-6 rounded-full" />
               </div>
               <div className="flex flex-col lg:flex-row items-center gap-12">
                 <div className="flex-1 space-y-6">
@@ -218,7 +218,7 @@ export default function Fundraising({ navigations }) {
                   See exactly how your donation transforms lives through our
                   targeted programs
                 </p>
-                <div className="w-20 h-1 bg-[#27ae60] mx-auto mt-6 rounded-full" />
+                <div className="w-20 h-1 bg-[#2746ae] mx-auto mt-6 rounded-full" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 {projects.map((project, index) => {
@@ -249,7 +249,7 @@ export default function Fundraising({ navigations }) {
                           {project.description}
                         </p>
                         <div className="flex justify-between items-center mb-3">
-                          <span className="text-[#27ae60] font-bold text-lg">
+                          <span className="text-[#2746ae] font-bold text-lg">
                             RM {project.raised.toLocaleString()}
                           </span>
                           <span className="text-[#6c757d] font-medium">
@@ -258,7 +258,7 @@ export default function Fundraising({ navigations }) {
                         </div>
                         <div className="w-full bg-gray-200 rounded-full h-3 mb-4">
                           <div
-                            className="bg-[#27ae60] h-3 rounded-full transition-all duration-1000"
+                            className="bg-[#2746ae] h-3 rounded-full transition-all duration-1000"
                             style={{ width: `${progress}%` }}
                           />
                         </div>
@@ -299,7 +299,7 @@ export default function Fundraising({ navigations }) {
                 <p className="text-xl text-[#6c757d] max-w-3xl mx-auto">
                   Transform a child's life through education
                 </p>
-                <div className="w-20 h-1 bg-[#27ae60] mx-auto mt-6 rounded-full" />
+                <div className="w-20 h-1 bg-[#2746ae] mx-auto mt-6 rounded-full" />
               </div>
               <div className="flex flex-col lg:flex-row items-center gap-12">
                 <div
@@ -338,7 +338,7 @@ export default function Fundraising({ navigations }) {
                       },
                     ].map((benefit, index) => (
                       <div key={index} className="flex items-start gap-4">
-                        <div className="bg-[#e8f5e9] w-10 h-10 rounded-full flex items-center justify-center text-[#27ae60] flex-shrink-0">
+                        <div className="bg-[#e8f5e9] w-10 h-10 rounded-full flex items-center justify-center text-[#2746ae] flex-shrink-0">
                           {benefit.icon}
                         </div>
                         <div>
@@ -372,7 +372,7 @@ export default function Fundraising({ navigations }) {
                   Every contribution makes a difference. Choose how you'd like
                   to support.
                 </p>
-                <div className="w-20 h-1 bg-[#27ae60] mx-auto rounded-full" />
+                <div className="w-20 h-1 bg-[#2746ae] mx-auto rounded-full" />
               </div>
               <div className="flex flex-col lg:flex-row gap-12">
                 {/* Donation Form */}
