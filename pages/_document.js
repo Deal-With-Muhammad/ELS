@@ -48,7 +48,7 @@ export default function Document(props) {
           crossOrigin="anonymous"
         /> */}
       </Head>
-      <body>
+      <body className="overflow-x-hidden">
         <Main />
         <NextScript />
       </body>
