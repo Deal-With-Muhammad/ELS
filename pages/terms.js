@@ -87,9 +87,11 @@ const TermsAndPolicy = ({ navigations }) => {
                   1. Our Mission & Educational Programs
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Empower Learning System (ELS) is dedicated to meeting the
-                  critical needs of refugees in Malaysia. We provide inclusive
-                  educational opportunities including:
+                  Provide access to educational opportunities for children,
+                  youth, and adults with limited financial capacity to attain a
+                  certificate/degree. Empower Learning System (ELS) is dedicated
+                  to meeting the critical needs of refugees in Malaysia. We
+                  provide inclusive educational opportunities including:
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mb-6 space-y-2">
                   <li>
